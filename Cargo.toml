@@ -1,0 +1,39 @@
+[package]
+name = "functional-programming"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "1"
+path = "rust/1.rs"
+
+[[bin]]
+name = "2"
+path = "rust/2.rs"
+
+[[bin]]
+name = "3"
+path = "rust/3.rs"
+
+[[bin]]
+name = "4"
+path = "rust/4.rs"
+
+[[bin]]
+name = "5"
+path = "rust/5.rs"
+
+[[bin]]
+name = "6"
+path = "rust/6.rs"
+
+[[bin]]
+name = "7"
+path = "rust/7.rs"
+
+[[bin]]
+name = "8-structs-async"
+path = "rust/8-structs-async.rs"
+
+[dependencies]
+tokio = { version = "1.54.1", features = ["macros", "rt-multi-thread"] }
