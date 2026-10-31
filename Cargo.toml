@@ -35,5 +35,9 @@ path = "rust/7.rs"
 name = "8-structs-async"
 path = "rust/8-structs-async.rs"
 
+[[bin]]
+name = "6-bench"
+path = "rust/bench/6.rs"
+
 [dependencies]
 tokio = { version = "1.54.1", features = ["macros", "rt-multi-thread"] }
